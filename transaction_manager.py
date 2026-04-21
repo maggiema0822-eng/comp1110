@@ -2,9 +2,11 @@ from random import choice
 
 from transaction import Transaction
 
+# Global list to store all transaction objects
 transactions = []
 
 def add_transaction():
+    # Get transaction information from user
     date = input("Please input the date (YYYY-MM-DD):").strip()
     category = input("Please input the category:").strip()
     description = input("Please input the description:").strip()
@@ -15,8 +17,10 @@ def add_transaction():
         print("The amount is invaild, please try again.")
         return
 
+    # Get optional note from user
     note = input("Please input your note(if needed):").strip()
 
+    # Create new Transaction object with user-provided details
     new_trans = Transaction(
         date=date,
         amount=amount,
@@ -25,6 +29,7 @@ def add_transaction():
         note=note
     )
 
+    # Add the new transaction to the global list
     transactions.append(new_trans)
     print(f"Transaction added successfully")
     return new_trans
@@ -33,6 +38,7 @@ def print_transactions():
     print("1 -> all transactions")
     print("2 -> transactions filtered by date")
     print("3 -> transactions filtered by category")
+    # Get user's menu choice
     choice = input("Please choose(1/2/3): ").strip()
     if choice == "1":
         show_all()
@@ -44,6 +50,7 @@ def print_transactions():
         print("Please choose from 1, 2, or 3")
 
 def show_all():
+    # Displays all stored transactions in a formatted table
     if not transactions:
         print("No transactions")
         return
@@ -53,6 +60,7 @@ def show_all():
 
 
 def show_date():
+    # Filters transactions by a user-specified date and displays matching entries
     date = input("Please input the date (YYYY-MM-DD): ").strip()
 
     fix_date = []
@@ -69,6 +77,7 @@ def show_date():
 
 
 def show_category():
+    # Filters transactions by a user-specified category and displays matching entries
     category = input("Please input the category: ").strip()
 
     fix_category = []
