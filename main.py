@@ -11,11 +11,13 @@ from alerts import check_all_budget, format_alerts
 
 
 def main():
+    # Load data from storage
     transactions = load_all_transactions()
     rules = load_budget_rules()
 
     transaction_manager.transactions = transactions
 
+    # Main program loop
     while True:
         print("\n===== Personal Budget Assistant =====")
         print("1. Add transaction")
@@ -26,8 +28,10 @@ def main():
         print("6. Save transactions")
         print("0. Exit")
 
+        # Get user input
         choice = input("Please choose: ").strip()
 
+        # Handle menu selection
         if choice == "1":
             transaction_manager.add_transaction()
 
@@ -57,5 +61,6 @@ def main():
             print("Invalid choice. Please try again.")
 
 
+# Run the program
 if __name__ == "__main__":
     main()
