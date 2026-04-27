@@ -9,13 +9,6 @@ This project models everyday personal spending as a computing problem. The progr
 
 ---
 
-## Requirements
-
-- Python 3.8 or above
-- No third-party libraries required (standard library only)
-
----
-
 ## How to Run
 
 ```bash
