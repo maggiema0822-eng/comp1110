@@ -37,6 +37,7 @@ python test_data.py
 | `transaction_manager.py` | Manages transaction operations such as adding, filtering, and deleting transactions. |
 | `storage.py` | Handles loading and saving transactions and budget rules to/from JSON files. Handles missing files, empty files, and malformed data gracefully. |
 | `test_data.py` | Generates sample test data for development and testing purposes. Includes a standard test set covering all alert types, random data generation, and multiple edge cases. |
+| `file_transformer.py` | Converts CSV and Excel (.xlsx/.xls) files to JSON format. Automatically detects file type and identifies transaction vs. budget rule files by their column structure. |
 
 ---
 
