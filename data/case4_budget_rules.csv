@@ -1,0 +1,3 @@
+category,period,threshold,alert_type
+entertainment,weekly,200.00,warning
+entertainment,daily,100.00,warning

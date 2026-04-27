@@ -1,0 +1,37 @@
+date,amount,category,description,note
+2026-03-01,35.00,food,Lunch at canteen,
+2026-03-01,20.00,food,Bubble tea,
+2026-03-02,45.00,food,Dinner at restaurant,
+2026-03-02,15.00,transport,MTR,
+2026-03-03,55.00,food,Hot pot dinner,over daily limit
+2026-03-04,62.00,food,BBQ with friends,over daily limit
+2026-03-05,68.00,food,Birthday dinner,over daily limit
+2026-03-06,30.00,food,Canteen lunch,
+2026-03-06,18.00,food,Afternoon snack,
+2026-03-07,12.00,transport,MTR,
+2026-03-07,40.00,food,Dinner,
+2026-03-08,48.00,food,Lunch and coffee,
+2026-03-09,53.00,food,Japanese restaurant,over daily limit
+2026-03-10,57.00,food,Korean BBQ,over daily limit
+2026-03-10,30.00,,Monthly magazine,uncategorized
+2026-03-11,35.00,food,Canteen lunch,
+2026-03-12,22.00,food,Breakfast and lunch,
+2026-03-13,18.00,transport,Bus and MTR,
+2026-03-14,44.00,food,Weekend brunch,
+2026-03-15,72.00,food,Family dinner,over daily limit
+2026-03-16,28.00,food,Quick lunch,
+2026-03-17,49.00,food,Dinner,
+2026-03-18,10.00,transport,MTR,
+2026-03-19,33.00,food,Canteen lunch,
+2026-03-20,42.00,food,Dinner with classmates,
+2026-03-21,56.00,food,Weekend lunch and drinks,over daily limit
+2026-03-22,64.00,food,Hot pot,over daily limit
+2026-03-23,30.00,food,Lunch,
+2026-03-24,26.00,food,Quick lunch,
+2026-03-25,41.00,food,Dinner,
+2026-03-26,16.00,transport,MTR,
+2026-03-27,37.00,food,Canteen lunch,
+2026-03-28,46.00,food,Dinner,
+2026-03-29,51.00,food,Restaurant,over daily limit
+2026-03-30,25.00,,Random snacks,uncategorized
+2026-03-31,34.00,food,Last day dinner,
