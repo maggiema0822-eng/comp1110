@@ -34,6 +34,7 @@ python test_data.py
 | `budget_rule.py` | Defines the `BudgetRule` class. Each rule specifies a category, time period (daily/weekly/monthly), spending threshold, and alert type. |
 | `alerts.py` | Implements all rule-based alert checks: daily/weekly/monthly budget caps, percentage threshold, consecutive overspend detection, and uncategorised transaction warnings. |
 | `spending_summary.py` | Computes spending statistics including totals by category, daily/weekly/monthly breakdowns, top 3 categories, and 7/30-day spending trends. |
+| `transaction_manager.py` | Manages transaction operations such as adding, filtering, and deleting transactions. |
 | `storage.py` | Handles loading and saving transactions and budget rules to/from JSON files. Handles missing files, empty files, and malformed data gracefully. |
 | `test_data.py` | Generates sample test data for development and testing purposes. Includes a standard test set covering all alert types, random data generation, and multiple edge cases. |
 
