@@ -1,5 +1,5 @@
 # COMP1110 — Personal Budget and Spending Assistant
-**Topic A | The University of Hong Kong | Semester 2, 2025–2026**
+**Topic A | Group: D07 | Members: Ma Yuru, Wang Youzi, Sun Mingyuan, Li Ronghao**
 
 ---
 
